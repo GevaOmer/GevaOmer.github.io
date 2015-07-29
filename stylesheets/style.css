@@ -83,11 +83,12 @@ button:active {
   font-size: 20px;
   color:#FFB700;
 }
+
 .site-wrap {
     min-width: 100%;
     min-height: 100%;
     background-color: white;
-    position: relative;
+    position: fixed;
     top: 0;
     bottom: 100%;
     left: 0;
@@ -99,6 +100,9 @@ button:active {
                      rgb(160,216,239) 100%);
    background-size: 200%;
    margin-left: -10px;
+}
+#vids{
+  position:relative;
 }
 .nav-trigger {
     position: absolute;
@@ -149,12 +153,7 @@ h1 {
     font-size: 30px;
     margin-right: 90px;
 }
-#sec1{
-  float:left;
-}
-#sec2{
-  float:right;
-}
+
 #ynder{
   padding-bottom: 14px;
 }
