@@ -16,6 +16,11 @@ body {
 
 
 }
+#logo{
+  color: #696969;
+  margin-top: -50px;
+  font-size:30px;
+}
 .navigation {
     list-style: none;
     background: #0066FF;
@@ -29,8 +34,53 @@ body {
     z-index: 0;
     margin-top: 0px;
 }
-.orange{
+button{
+  -moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffa200), color-stop(1, #ffe229));
+	background:-moz-linear-gradient(top, #ffa200 5%, #ffe229 100%);
+	background:-webkit-linear-gradient(top, #ffa200 5%, #ffe229 100%);
+	background:-o-linear-gradient(top, #ffa200 5%, #ffe229 100%);
+	background:-ms-linear-gradient(top, #ffa200 5%, #ffe229 100%);
+	background:linear-gradient(to bottom, #ffa200 5%, #ffe229 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffa200', endColorstr='#ffe229',GradientType=0);
+	background-color:#ffa200;
+	border:1px solid #314179;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Garamond;
+	font-size:18px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+  padding: 10px
 
+}
+button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffe229), color-stop(1, #ffa200));
+	background:-moz-linear-gradient(top, #ffe229 5%, #ffa200 100%);
+	background:-webkit-linear-gradient(top, #ffe229 5%, #ffa200 100%);
+	background:-o-linear-gradient(top, #ffe229 5%, #ffa200 100%);
+	background:-ms-linear-gradient(top, #ffe229 5%, #ffa200 100%);
+	background:linear-gradient(to bottom, #ffe229 5%, #ffa200 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe229', endColorstr='#ffa200',GradientType=0);
+	background-color:#ffe229;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+#button1{
+  margin-top: 8px;
+}
+.space{
+  margin-bottom: 3px;
+
+}
+.orange{
+  font-size: 20px;
   color:#FFB700;
 }
 .site-wrap {
@@ -48,6 +98,7 @@ body {
                      rgb(221,241,249) 35%,
                      rgb(160,216,239) 100%);
    background-size: 200%;
+   margin-left: -10px;
 }
 .nav-trigger {
     position: absolute;
@@ -86,7 +137,9 @@ background-size: contain;
 a > span{
   color:#FFB700;
 }
-
+p{
+  font-size: 19px;
+}
 
 h1 {
     text-align:center;
@@ -94,6 +147,13 @@ h1 {
     border-bottom: 3px solid blue;
     color: #996600;
     font-size: 30px;
+    margin-right: 90px;
+}
+#sec1{
+  float:left;
+}
+#sec2{
+  float:right;
 }
 #ynder{
   padding-bottom: 14px;
